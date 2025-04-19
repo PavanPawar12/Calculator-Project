@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #433838;
+    
+}
+
+.calculator {
+    width: 400px;
+    height: 600px;
+    background-color: rgb(38, 21, 21);
+    border-radius: 16px;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+    padding: 20px;
+    border: 2px solid black;
+    margin: 23px;
+}
+
+input {
+    width: 100%;
+    height: 60px;
+    border: none;
+    padding: 20px;
+    background: transparent;
+    font-size: 40px;
+    text-align: right;
+    color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    outline: none;
+}
+
+input::placeholder {
+    color: #ffffff;
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    box-shadow: -8px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.operator {
+    color: rgb(58, 202, 58);
+}
+
+.d {
+    color: rgb(255, 94, 94);
+}
+
+.equalBtn {
+    background-color: rgb(58, 202, 58);
+    color: #fff;
+    box-shadow: 0px 5px 10px rgba(58, 202, 58, 0.5);
+}

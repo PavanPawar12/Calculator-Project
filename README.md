@@ -1,9 +1,5 @@
 <h1 align="center">🧮 Calculator Project</h1>
-
-<p align="center">
-  <img src="https://via.placeholder.com/600x300?text=Calculator+App+Preview" alt="Calculator Preview" />
-</p>
-
+<hr>
 <p align="center">
   <b>A Simple, Stylish, and Responsive Calculator Web App built with HTML, CSS, and JavaScript</b>
 </p>
@@ -17,17 +13,7 @@
   <li>🎨 Beautiful and user-friendly interface</li>
   <li>⚡ Fast and lightweight – No frameworks, just pure HTML/CSS/JS</li>
 </ul>
-
 <hr>
-
-<h2>📸 Preview</h2>
-
-<p align="center">
-  <img src="https://via.placeholder.com/400x200?text=Live+Calculator+Demo" alt="Calculator Screenshot" />
-</p>
-
-<hr>
-
 <h2>🚀 How to Use</h2>
 
 <ol>
@@ -45,4 +31,11 @@
 <hr>
 
 <h2>📂 Project Structure</h2>
+Calculator-Project/
+│
+├── index.html      → Main HTML file
+├── style.css       → CSS styling file
+├── script.js       → JavaScript functionality
+└── README.md       → Project documentation
+
 
